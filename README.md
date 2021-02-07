@@ -1,1 +1,1 @@
-# run_buddy
+# RunBuddy
