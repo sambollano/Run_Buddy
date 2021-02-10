@@ -1,9 +1,14 @@
-# RunBuddy
-Purpose
-A Web Site Made for Fitness
-Built With
-.Css
-.HTML
-Website:
-https://sambollano.github.io/run_buddy/
-©️2019 Run Buddy, Inc
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [Samantha Arellano]
