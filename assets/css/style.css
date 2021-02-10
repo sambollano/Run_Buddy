@@ -249,7 +249,7 @@
       color: #fce138;
       font-size: 32px;
     }
-    .content-info p;
+    .content-info p
     .content-info address {
       margin: 20px 0;
       line-height: 1.5;
@@ -259,3 +259,10 @@
     .content-info a {
       color: #fce138;
     }
+    .footer {
+      padding: 30px;
+      clear: both;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      background-color: #fce138;
+  }
