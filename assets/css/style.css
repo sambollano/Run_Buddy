@@ -100,8 +100,10 @@
     }
 
     .hero-form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 3px solid #024e76;
     background-color: #fce138;
+    border-radius: 15px;
     padding: 20px;
     color: #024e76;
     width: 40%;
@@ -129,12 +131,14 @@
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
+    border-radius: 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -148,6 +152,7 @@
     .hero-form button {
     color: #fce138;
     background-color: #024e76;
+    border-radius: 15px;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -304,6 +309,7 @@
       display: block;
       padding: 7px 15px;
       font-size: 16px;
+      border-radius: 15px;
       color: #024e76;
       width: 100%;
       margin-bottom: 15px;
@@ -313,6 +319,7 @@
       width: 100%;
       border: none;
       background: #fce138;
+      border-radius: 15px;
       color: #024e76;
       text-align: center;
       padding: 15px 0;
@@ -360,6 +367,7 @@
       header h1 {
         width: 100%;
         text-align: center;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
     
       header nav ul {
@@ -370,6 +378,7 @@
     
       header nav ul li a {
         font-size: 20px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
     
       footer h2, footer div {
