@@ -1,113 +1,111 @@
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
 
-body {
-  color: #39a6b2;
-  font-family: Helvetica, Arial, sans-serif;  
-}
+    body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;  
+    }
 
 
-/* HEADER / NAV BAR STYLES START */
+    /* HEADER / NAV BAR STYLES START */
 
-header {
+    header {
     width: 100%;
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+    }
 
-header h1 {
-  font-weight: bold;
-  margin: 0;
-  font-size: 36px;
-  color: #fce138;
-}
+    header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #fce138;
+    }
 
-header a {
-  text-decoration: none;
-  color: #fce138;
-}
+    header a {
+    text-decoration: none;
+    color: #fce138;
+    }
 
-header nav { 
-margin: 7px 0;
-}
+    header nav { 
+    margin: 7px 0;
+    }
 
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
+    header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
 
-header nav ul li a {
-  margin: 0 30px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-}
+    header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    }
 
-/* HEADER / NAVBAR STYLES END */
-
-
-
-/* FOOTER STYLES START */
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-footer h2 {
-
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer span {
-
-  line-height: 1.5;
-}
-
-footer a {
-  color: #024e76;
-}
-/* END FOOTER STYLES */
-
-/* STYLE ALL SECTION TAGS */
-section {
-  padding: 60px;
-}
+    /* HEADER / NAVBAR STYLES END */
 
 
 
-  /* HERO STYLES START */
-  .hero {
-  background-image: url('../images/hero-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+    /* FOOTER STYLES START */
+    footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
 
-  .hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
-  padding: 20px;
-  color: #024e76;
-  width: 40%;
-  margin: 3.5%;
-  }
+    footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+    }
+
+    footer span {
+    line-height: 1.5;
+    }
+
+    footer a {
+    color: #024e76;
+    }
+    /* END FOOTER STYLES */
+
+    /* STYLE ALL SECTION TAGS */
+    section {
+    padding: 60px;
+    }
+
+
+
+    /* HERO STYLES START */
+    .hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 40%;
+    margin: 3.5%;
+    }
 
     .hero-form h3 {
     font-size: 24px;
@@ -118,18 +116,18 @@ section {
     }
 
     .hero-cta {
-      width: 35%;
-      text-align: right;
-      margin: 3.5%;
-      color: #fff;
-      font-size: 18px;
-      line-height: 1.3;
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
     }
 
     .hero-cta h2 {
-      font-style: italic;
-      font-size: 55px;
-      color: #fce138;
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
     }
 
     .form-input {
@@ -148,150 +146,162 @@ section {
 
     .hero-form button {
     color: #fce138;
-   background-color: #024e76;
+    background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     }
     /*styles starts*/
-      .section-title {
-      font-size: 55px;
-      border-bottom: 3px solid;  
-      color: #fce138;
-      padding-bottom: 20px;
-      text-align: center;
-      margin: 0 auto 35px auto;
-      width: 50%;
-      }
-      .primary-border {
-      border-color: #fce138;
-      }
-      .secondary-border {
-      border-color: #39a6b2;
-      }
-    /*We do style start*/
-      .steps { 
-        background: #fce138;
-      }
-      .steps div {
-        margin-bottom: 80px;
-      }
-      
-      
-
-      .steps img {
-        width: 15%;
-        margin: 10px 0;
-      } 
-      
-      .steps h3 {
-        color: #024e76;
-        font-size: 46px;
-        margin-top: 10px;
-      }
-      
-      .steps span {
-        font-size: 38px;
-      }
-      
-      .intro p {
-        text-align: center;
-      }
-      .steps p {
-        color: #39a6b2;
-        font-size: 23px;
-      }
-    /*Meet the trainers*/
-    .trainers {
-
+    .section-title {
+    font-size: 55px;
+    border-bottom: 3px solid;  
+    color: #fce138;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     }
+    .primary-border {
+    border-color: #fce138;
+    }
+    .secondary-border {
+    border-color: #39a6b2;
+    }
+    /*We do style start*/
+    .steps { 
+    background: #fce138;
+    }
+    .step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+    }
+    .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .step-info {
+      flex: 2 70%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .step-img {
+      flex: 1 12%;
+      margin-right: 20px;
+    }
+    .intro p {
+    text-align: center;
+    }
+    .step-text {
+      flex: 12;
+    }
+    .steps-text p {
+    color: #39a6b2;
+    font-size: 18px;
+    }
+    .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+    }
+    .step-img img {
+      max-width: 100%;
+    }
+    /*Meet the trainers*/
     .trainer {
-      width: 900px;
-      margin: 0 auto 30px auto;
-      background: #024e76;
-      color: #fce138;
-      overflow: auto
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto
     }
     .trainers img {
-      width: 35%;
+    width: 35%;
     }
     .trainer .img-left {
     float: left;
     }
     .trainer .img-right {
-     float: right;
+    float: right;
     }
     .trainers-bio {
-      padding: 35px;
-      float: left;
-      width: 65%;
+    padding: 35px;
+    float: left;
+    width: 65%;
     }
     .trainer-bio h3 {
-      font-size: 32px;
-      margin-bottom: 8px;
+    font-size: 32px;
+    margin-bottom: 8px;
     }
     
     .trainer-bio h4 {
-      font-weight: 200;
-      font-size: 26px;
-      margin-bottom: 25px;
+    font-weight: 200;
+    font-size: 26px;
+    margin-bottom: 25px;
     }
     .trainer-bio p {
-      font-size: 17px;
-      line-height: 1.3;
+    font-size: 17px;
+    line-height: 1.3;
     }
     /*End of Trainer Bio*/
     /*otherstuff*/
     .text-left {
-      text-align: left;
+    text-align: left;
     }
     .text-right {
-      text-align: right;
+    text-align: right;
     }
     
     .flex-row {
-      display: flex;
+    display: flex;
     }
 
     /* Reachout*/
     .contact {
-      background: #024e76;
+    background: #024e76;
     }
     .content h2 {
-      color: #fce138;
+    color: #fce138;
     }
     .contact-info iframe {
-      width: 400px;
-      min-height: 400px;
+    width: 400px;
+    min-height: 400px;
     }
     
     .contact-info div {
-      width: 410px;
-      display: inline-block;
-      vertical-align: top;
-      text-align: left;
-      margin: 30px 0 0 60px;
-      color: white;    
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;    
     }
     .content-info h3 {
-      color: #fce138;
-      font-size: 32px;
+    color: #fce138;
+    font-size: 32px;
     }
     .contact-info p, .contact-info address {
-      margin: 20px 0;
-      line-height: 1.5;
-      font-size: 20px;
-      font-style: normal;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
     }    
     .content-info a {
-      color: #fce138;
+    color: #fce138;
     }
     /*Reachout style end*/
     /*Footer*/
     .footer {
-      padding: 30px;
-      clear: both;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-align: center;
-      background-color: #fce138;
-  }
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #fce138;
+    }
