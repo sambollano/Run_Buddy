@@ -145,15 +145,18 @@
 
     .form-input {
     border: 1px solid #024e76;
+    background-color: rgba(255,255,255, 0.75);
     display: block;
     padding: 7px 15px;
-    border-radius: 15px;
     font-size: 16px;
     color: #024e76;
     width: 100%;
     margin-bottom: 15px; 
     }
-
+    .form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+    }
     .hero-form label {
     margin: 0 5px;
     }
@@ -201,21 +204,24 @@
     align-items: center;
     justify-content: space-between;
     }
+    .step:last-child {
+    border-bottom: 1px solid #39a6b2;
+    }
     .step-info {
-      flex: 2 70%;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     }
     .step-img {
-      flex: 1 12%;
-      margin-right: 20px;
+    flex: 1 12%;
+    margin-right: 20px;
     }
     .intro p {
     text-align: center;
     }
     .step-text {
-      flex: 12;
+    flex: 12;
     }
     .steps-text p {
     color: #39a6b2;
@@ -227,7 +233,7 @@
     color: #024e76;
     }
     .step-img img {
-      max-width: 100%;
+    max-width: 100%;
     }
     /*Meet the trainers*/
     .trainer {
@@ -237,11 +243,11 @@
     flex: 1;
     }
     .trainers {
-      width: 100%;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     }
     .trainers img {
     width: 100%;
@@ -299,9 +305,9 @@
     color: white;    
     }
     .contact-info {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     }
     .content-info h3 {
     color: #fce138;
@@ -312,27 +318,32 @@
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    
     }
     .contact-form input, .contact-form textarea {
-      border: 1px solid #024e76;
-      display: block;
-      padding: 7px 15px;
-      font-size: 16px;
-      border-radius: 15px;
-      color: #024e76;
-      width: 100%;
-      margin-bottom: 15px;
-      margin-top: 5px;
+    border: 1px solid #024e76;
+    background-color: rgba(255,255,255, 1);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
     }
     .contact-form button {
-      width: 100%;
-      border: none;
-      background: #fce138;
-      border-radius: 15px;
-      color: #024e76;
-      text-align: center;
-      padding: 15px 0;
-      font-size: 16px;
+    width: 100%;
+    border: none;
+    background: #fce138;
+    border-radius: 15px;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
     }
     .content-info a {
     color: #fce138;
@@ -368,27 +379,41 @@
     }
     }
     @media screen and (max-width: 980px) {
-      header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative
-      }
+    header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative
+    }
+    header h1 {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
     
-      header h1 {
-        width: 100%;
-        text-align: center;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
+    header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    }
     
-      header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
+    header nav ul li a {
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+    }
+      
+      .hero-form button:hover {
+        background-color: #39a6b2;  
       }
-    
-      header nav ul li a {
-        font-size: 20px;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      
+      .contact-form button:hover {
+        color: #fce138;
+        background: #39a6b2;
       }
     
       footer h2, footer div {
@@ -473,5 +498,5 @@
         flex: 0 100%;
       }
       .contact-form {
-        order: 3;
+        order: 3; 
       }
