@@ -11,7 +11,7 @@
     }
     
     body {
-    color: #39a6b2;
+    color: black;
     font-family: Helvetica, Arial, sans-serif;  
     }
 
@@ -21,7 +21,7 @@
     header {
     width: 100%;
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: lightslategrey;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -228,7 +228,7 @@
     .section-title {
     font-size: 48px;
     border-bottom: 3px solid;  
-    color: #fce138;
+    color: navy;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
