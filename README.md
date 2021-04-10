@@ -11,6 +11,6 @@ A website that offers fitness training services.
 https://sambollano.github.io/Run_Buddy/
 
 ## Contribution
-Made with ❤️ by [Samantha Arellano]
+Made with ❤️ by Samantha Arellano
 
 ### ©️2019 Run Buddy, Inc 
